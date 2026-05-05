@@ -1,0 +1,22 @@
+{
+  "services": [
+    "Business Loans",
+    "Working Capital Financing",
+    "Equipment Financing",
+    "Credit Advisory"
+  ],
+  "process": [
+    "Submit your application",
+    "We assess your needs",
+    "Get matched with lenders"
+  ],
+  "why": [
+    "Fast loan matching",
+    "Tailored funding solutions",
+    "Dedicated support team"
+  ],
+  "testimonials": [
+    "Credicare helped us secure funding quickly!",
+    "Very smooth and professional experience."
+  ]
+}

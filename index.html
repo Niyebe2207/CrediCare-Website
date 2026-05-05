@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credicare</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <div class="logo">
+      <img src="logo.png" alt="CrediCare Logo">
+      <span>Credi<span class="accent-text">Care</span></span>
+    </div>
+    <a href="#contact" class="btn small">Apply</a>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container">
+    <h1>Funding Solutions That Care About Your Business</h1>
+    <p>We connect you with trusted lenders—fast and simple.</p>
+    <a href="#contact" class="btn">Apply for Funding</a>
+  </div>
+</section>
+
+<section class="container notice">
+  <p>CrediCare</span> is not a lender. We connect businesses with financial partners.</p>
+</section>
+
+<section class="about-section">
+
+  <div class="container about-grid">
+
+    <!-- LEFT TEXT -->
+    <div class="about-text">
+      <h2>About Credicare</h2>
+
+      <p>
+        At Credicare, we specialize in delivering tailored financing solutions
+        and end-to-end support to help businesses and individuals achieve their
+        financial goals. Through our expertise and trusted network of partners,
+        we provide strategic guidance, flexible funding options, and personalized
+        services designed to drive growth and long-term success.
+      </p>
+
+      <p>
+        We work with startups, SMEs, and established enterprises to connect them
+        with the right funding opportunities. Our team ensures a smooth and
+        efficient process—from initial consultation to funding completion.
+      </p>
+    </div>
+
+    <!-- RIGHT HIGHLIGHTS -->
+    <div class="about-highlights">
+
+      <div class="highlight">
+        <h3>✔ Tailored Solutions</h3>
+        <p>Financing strategies aligned with your business goals.</p>
+      </div>
+
+      <div class="highlight">
+        <h3>✔ Expert Guidance</h3>
+        <p>Professional support backed by industry experience.</p>
+      </div>
+
+      <div class="highlight">
+        <h3>✔ Trusted Network</h3>
+        <p>Access to reliable financial partners and funding options.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="services-section container">
+  <h2>Our Services</h2>
+  <p class="section-sub">
+    Smart financing solutions designed to support your business growth.
+  </p>
+
+  <div class="services-grid">
+
+    <!-- CARD 1 -->
+    <div class="service-card">
+      <div class="icon">
+        <!-- Briefcase -->
+        <svg viewBox="0 0 24 24">
+          <path d="M3 7h18v12H3zM9 7V5h6v2" />
+        </svg>
+      </div>
+      <h3>Financing Solutions</h3>
+      <p>
+        Secure funding for working capital, expansion, and operational needs.
+      </p>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="service-card">
+      <div class="icon">
+        <!-- Refresh -->
+        <svg viewBox="0 0 24 24">
+          <path d="M12 6v4l3-3-3-3v2a6 6 0 100 12 6 6 0 005.66-4H16a4 4 0 11-4-4z"/>
+        </svg>
+      </div>
+      <h3>End-to-End Support</h3>
+      <p>
+        From application to approval, we guide you every step of the way.
+      </p>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="service-card">
+      <div class="icon">
+        <!-- Network -->
+        <svg viewBox="0 0 24 24">
+          <path d="M12 3a3 3 0 110 6 3 3 0 010-6zM5 14a3 3 0 110 6 3 3 0 010-6zm14 0a3 3 0 110 6 3 3 0 010-6zM8 8l4 4 4-4M8 16l4-4 4 4"/>
+        </svg>
+      </div>
+      <h3>Our Network</h3>
+      <p>
+        Connect with trusted financial partners to maximize opportunities.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="why-section">
+
+  <div class="container">
+
+    <h2>Why Choose Us</h2>
+    <p class="section-sub">
+      Your partner in strategic funding solutions.
+    </p>
+
+    <div class="why-grid">
+
+      <!-- 01 -->
+      <div class="why-card">
+        <span class="number">01</span>
+        <h3>Tailored Financing Strategies</h3>
+        <p>
+          We design financing solutions aligned with your business goals,
+          ensuring long-term growth and sustainability.
+        </p>
+      </div>
+
+      <!-- 02 -->
+      <div class="why-card">
+        <span class="number">02</span>
+        <h3>End-to-End Process</h3>
+        <p>
+          From consultation to funding completion, we ensure a smooth,
+          efficient, and results-driven experience.
+        </p>
+      </div>
+
+      <!-- 03 -->
+      <div class="why-card">
+        <span class="number">03</span>
+        <h3>Strong Financial Network</h3>
+        <p>
+          We connect you with trusted financial partners to access the best
+          funding opportunities for your business.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="contact" class="cta-section">
+  <div class="cta-container">
+
+    <!-- LEFT -->
+    <div class="cta-text">
+      <h2>Ready to Get Started?</h2>
+      <p>
+        We stand ready to match your business needs with the right lender partners.
+        Fill out the form and we’ll contact you within 24 hours.
+      </p>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="cta-form">
+      <form id="inquiryForm" action="send.php" method="POST">
+
+        <div class="grid">
+          <input type="text" name="company" placeholder="Company Name" required>
+          <input type="text" name="name" placeholder="Contact Person" required>
+        </div>
+
+        <div class="grid">
+          <input type="email" name="email" placeholder="Email Address" required>
+          <input type="text" name="phone" placeholder="Phone (e.g. 09xxxxxxxxx)" required>
+        </div>
+
+        <input type="text" name="purpose" placeholder="Financing Purpose" required>
+        <input type="text" name="amount" placeholder="Requested Amount (₱)" required>
+
+        <label class="consent">
+          <input type="checkbox" required>
+         I agree to the Privacy Policy
+        </label>
+
+        <button type="submit">Get Funding</button>
+
+        <p class="form-note">
+          Your information is secure. We only use it to connect you with lenders.
+        </p>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- TOP -->
+    <div class="footer-top">
+      <h2 class="footer-logo">Credicare</h2>
+      <p class="footer-desc">
+        Your partner in business growth through smart financing solutions.
+      </p>
+    </div>
+
+    <hr>
+
+    <!-- CONTACT + TRUST GRID -->
+    <div class="footer-grid">
+
+      <!-- CONTACT -->
+      <div class="footer-contact">
+        <h3>Let’s Connect</h3>
+
+        <div class="contact-item">
+          <span class="icon"><i class="bi bi-geo-alt"></i></span>
+          <p>
+            Unit 1702, 17th Floor High Street South Corporate Plaza Tower 2,
+            11th Ave. cor. 26th St., Bonifacio Global City, Taguig
+          </p>
+        </div>
+
+        <div class="contact-item">
+          <span class="icon"><i class="bi bi-envelope"></i></span>
+          <p>info@credicareph.com</p>
+        </div>
+
+        <div class="contact-item">
+          <span class="icon"><i class="bi bi-telephone"></i></span>
+          <p>+63 956 407 7088</p>
+        </div>
+      </div>
+
+      <!-- TRUST -->
+      <div class="footer-middle">
+        <h3>Trust & Compliance</h3>
+        <p>
+          Credicare is a financing facilitator and is not a lending company.
+          We connect clients with trusted financial partners.
+        </p>
+
+        <div class="badges">
+          <span><i class="bi bi-lock-fill"></i> End-to-end encryption</span>
+          <span><i class="bi bi-shield-check"></i> Data Privacy Act compliant</span>
+        </div>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <!-- BOTTOM -->
+    <div class="footer-bottom">
+      <div class="links">
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Service</a>
+        <a href="#contact">Apply</a>
+      </div>
+
+      <p class="copyright">
+        © 2026 Credicare. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
